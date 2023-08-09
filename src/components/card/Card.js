@@ -8,10 +8,11 @@ export const Card = (props) => {
       <HelloCard>
         <h1>{props.title}</h1>
         <p>{props.text}</p>
-        <Button onClick={props.onClick}>{props.button}</Button>
+        <Button clicked={props.buttonEvent}>{props.button}</Button>
         <div className="pic-container">
           <img className="personal-pic" src={props.picture} alt=""/>
         </div>
+        <h1>{props.text}</h1>
       </HelloCard>
     </Container>
   )

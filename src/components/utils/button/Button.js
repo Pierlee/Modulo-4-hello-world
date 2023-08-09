@@ -4,7 +4,7 @@ import { StyledButton } from "./Button.style";
 export const Button = (props) => {
   return(
     <StyledButton>
-      <div>{props.children}</div>
+      <div onClick={props.clicked}>{props.children}</div>
     </StyledButton>
   )
 }
