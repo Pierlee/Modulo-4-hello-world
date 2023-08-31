@@ -11,8 +11,7 @@ export const Card = (props) => {
         <Button clicked={props.buttonEvent}>{props.button}</Button>
         <div className="pic-container">
           <img className="personal-pic" src={props.picture} alt=""/>
-        </div>
-        <h1>{props.text}</h1>
+        </div>  
       </HelloCard>
     </Container>
   )

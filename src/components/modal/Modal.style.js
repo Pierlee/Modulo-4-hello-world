@@ -10,7 +10,9 @@ const colors = {
 export const Container = styled.div `
 height: 100vh;
 background-color:  rgba(0, 0, 0, 0.7);
-position: absolute;
+position: fixed;
+top: 0;
+bottom: 0;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -26,12 +28,26 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-position: relative;
+position: fixed;
   .buttons-container{
     display: flex;
     justify-content: space-around;
     margin: 2rem 0;
     width: 80%;
+  }
+  .buttonMd{
+    width: 100px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonMd:hover{
+    background-color: yellow;
   }
   .close{
     position: absolute;

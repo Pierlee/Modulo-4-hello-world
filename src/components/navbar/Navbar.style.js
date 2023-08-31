@@ -22,7 +22,6 @@ background-color: #1d7ced;
   }
   .nav ul a:hover{
     color: whitesmoke;
-    font-weight: bold;
   }
 `
 

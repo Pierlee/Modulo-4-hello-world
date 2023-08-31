@@ -12,10 +12,10 @@ export const Navbar = () => {
       <div className="nav">
         <span className="logo">Logo</span>
         <ul className="menu">
-          <li><a onClick={helloAppear} href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Home</a></li>
+          <li><a onClick={helloAppear} href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
+          <li><a href="">Hello World</a></li>
         </ul>
       </div>
     </NavContainer>
